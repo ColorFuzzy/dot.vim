@@ -11,7 +11,6 @@ set incsearch
 set smartcase
 set number
 
-
 set backspace=indent,eol,start
 
 set guioptions-=T  "remove toolbar
@@ -45,6 +44,12 @@ nmap <leader>ve :e $MYVIMRC<cr>
 set laststatus=2  " status line
 
 " ============================================================================== 
+" Folding
+" ============================================================================== 
+" set foldenable
+" set foldmethod=syntax
+
+" ============================================================================== 
 " File Explorer
 " ============================================================================== 
 " enabled: nerdtree
@@ -67,3 +72,10 @@ nmap <leader>fh :FzfHistory<cr>
 nmap <leader>fk :FzfMaps<cr>
 nmap <leader>fv :FzfHelptags<cr>
 nmap <leader>fx :FzfCommands<cr>
+
+" ============================================================================== 
+" Markdown
+" ============================================================================== 
+" au! BufRead,BufNewFile *.markdown set filetype=mkd
+" au! BufRead,BufNewFile *.md       set filetype=mkd
+
