@@ -9,6 +9,7 @@ syntax on
 set hlsearch
 set incsearch
 set smartcase
+set number
 
 
 set backspace=indent,eol,start
@@ -18,6 +19,13 @@ set guioptions-=r  "remove right-hand scroll bar
 set guioptions-=L  "remove left-hand scroll bar
 
 nnoremap <Space> <C-f>
+
+" ============================================================================== 
+" Themes 
+" ============================================================================== 
+" http://www.calmar.ws/vim/256-xterm-24bit-rgb-color-chart.html
+" :help cterm-colors
+highlight LineNr ctermfg=darkgray
 
 " ============================================================================== 
 " Basic Shortcuts
