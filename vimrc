@@ -47,7 +47,15 @@ nmap <leader>e :NERDTreeToggle<cr>
 " ============================================================================== 
 " enabled: fzf.vim
 set rtp+=~/.fzf  " remember to install fzf via git
-nmap <leader>fg :GFiles<cr>
-nmap <leader>fc :GFiles?<cr>
-nmap <leader>fb :Buffers<cr>
-nmap <leader>ff :Files<cr>
+let g:fzf_command_prefix = 'Fzf'
+
+nmap <leader>fg :FzfGFiles<cr>
+nmap <leader>fc :FzfGFiles?<cr>
+nmap <leader>fb :FzfBuffers<cr>
+nmap <leader>ff :FzfFiles<cr>
+
+nmap <leader>fm :FzfMarks<cr>
+nmap <leader>fh :FzfHistory<cr>
+nmap <leader>fk :FzfMaps<cr>
+nmap <leader>fv :FzfHelptags<cr>
+nmap <leader>fx :FzfCommands<cr>
