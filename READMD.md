@@ -5,7 +5,7 @@
 
 # setup on ubuntu
 
-## 1. install latest vim
+## install latest vim
 
 ``` sh
 sudo add-apt-repository ppa:jonathonf/vim
@@ -14,7 +14,7 @@ sudo apt install vim
 
 ```
 
-## 2. install fzf
+## install fzf
 
 ``` sh
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
@@ -22,7 +22,7 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 
 ```
 
-## finally: clone to .vim
+## clone to .vim
 
 ``` sh
 git clone https://github.com/ColorFuzzy/dot.vim.git ~/.vim
