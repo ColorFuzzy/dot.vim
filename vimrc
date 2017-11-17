@@ -27,6 +27,8 @@ let g:mapleader = ","
 
 imap <leader>, <Esc>
 nmap <leader>w :w<cr>
+nmap <leader>vr :so $MYVIMRC<cr>
+nmap <leader>ve :e $MYVIMRC<cr>
 
 " ============================================================================== 
 " Status Bar 
@@ -45,3 +47,7 @@ nmap <leader>e :NERDTreeToggle<cr>
 " ============================================================================== 
 " enabled: fzf.vim
 set rtp+=~/.fzf  " remember to install fzf via git
+nmap <leader>fg :GFiles<cr>
+nmap <leader>fc :GFiles?<cr>
+nmap <leader>fb :Buffers<cr>
+nmap <leader>ff :Files<cr>
