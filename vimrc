@@ -9,7 +9,6 @@ set hlsearch
 set incsearch
 set smartcase
 
-set laststatus=2  " status line
 
 set backspace=indent,eol,start
 
@@ -19,3 +18,8 @@ set guioptions-=L  "remove left-hand scroll bar
 
 nnoremap <Space> <C-f>
 
+" ============================================================================== 
+" Status Bar 
+" ============================================================================== 
+" enabled: lightline.vim
+set laststatus=2  " status line
