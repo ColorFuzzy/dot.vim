@@ -1,4 +1,5 @@
 " https://vimawesome.com/
+
 " ============================================================================== 
 " Vim Basic Setup
 " ============================================================================== 
@@ -17,6 +18,8 @@ set backspace=indent,eol,start
 set guioptions-=T  "remove toolbar
 set guioptions-=r  "remove right-hand scroll bar
 set guioptions-=L  "remove left-hand scroll bar
+
+set directory=~/.vim/swpfiles//
 
 " ============================================================================== 
 " Themes 
@@ -39,6 +42,7 @@ nmap <leader>q :q<cr>
 nmap <leader>Q :q!<cr>
 nmap <leader>vr :so $MYVIMRC<cr>
 nmap <leader>ve :e $MYVIMRC<cr>
+nmap <leader>vh :se hls!<cr>
 
 " ============================================================================== 
 " Status Bar 
