@@ -5,6 +5,7 @@
 set nocompatible 
 
 syntax on
+set mouse=a
 
 set hlsearch
 set incsearch
