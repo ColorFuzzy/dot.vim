@@ -60,7 +60,7 @@ set foldmethod=syntax
 " File Explorer
 " ============================================================================== 
 " enabled: nerdtree
-nmap <leader>e :NERDTreeToggle<cr>
+nmap <leader>n :NERDTreeToggle<cr>
 
 " ============================================================================== 
 " Fzf
