@@ -18,8 +18,6 @@ set guioptions-=T  "remove toolbar
 set guioptions-=r  "remove right-hand scroll bar
 set guioptions-=L  "remove left-hand scroll bar
 
-nnoremap <Space> <C-f>
-
 " ============================================================================== 
 " Themes 
 " ============================================================================== 
@@ -33,8 +31,12 @@ highlight LineNr ctermfg=darkgray
 let mapleader = ","
 let g:mapleader = ","
 
+nnoremap <Space> <C-f>
+
 imap <leader>, <Esc>
 nmap <leader>w :w<cr>
+nmap <leader>q :q<cr>
+nmap <leader>Q :q!<cr>
 nmap <leader>vr :so $MYVIMRC<cr>
 nmap <leader>ve :e $MYVIMRC<cr>
 
@@ -47,8 +49,8 @@ set laststatus=2  " status line
 " ============================================================================== 
 " Folding
 " ============================================================================== 
-" set foldenable
-" set foldmethod=syntax
+set foldenable
+set foldmethod=syntax
 
 " ============================================================================== 
 " File Explorer
@@ -73,10 +75,4 @@ nmap <leader>fh :FzfHistory<cr>
 nmap <leader>fk :FzfMaps<cr>
 nmap <leader>fv :FzfHelptags<cr>
 nmap <leader>fx :FzfCommands<cr>
-
-" ============================================================================== 
-" Markdown
-" ============================================================================== 
-" au! BufRead,BufNewFile *.markdown set filetype=mkd
-" au! BufRead,BufNewFile *.md       set filetype=mkd
 
