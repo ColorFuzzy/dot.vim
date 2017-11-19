@@ -1,13 +1,6 @@
-TODOS
-	vim-workspace
-	vim-rooter
-	vimoutliner
-
-
 # todos
 
 - select a good color for cursorline, highlight current line
-- markdown and markdown folding suport [goya setup](https://www.swamphogg.com/2015/vim-setup/)
 
 # setup on ubuntu
 
