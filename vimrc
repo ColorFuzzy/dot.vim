@@ -1,20 +1,21 @@
 " https://vimawesome.com/
 
 " ============================================================================== 
-" Plugins and Shortcuts
+" Plugins
 " ============================================================================== 
-" fzf.vim - <leader>f
-" nerdcommenter - <leader>c
-" vim-buftabline
-" vim-surround - *s*
-" lightline.vim
-" nerdtree
-" vim-easymotion - <leader><leader>
+" pack/plugins/start/fzf.vim
+" pack/plugins/start/lightline.vim
+" pack/plugins/start/nerdcommenter
+" pack/plugins/start/nerdtree
+" pack/plugins/start/vim-buftabline
+" pack/plugins/start/vim-easymotion
+" pack/plugins/start/vim-surround
 
 " ============================================================================== 
 " Vim Basic Setup
 " ============================================================================== 
 set nocompatible 
+filetype plugin on
 
 syntax on
 set mouse=a
@@ -44,6 +45,8 @@ highlight LineNr ctermfg=darkgray
 " ============================================================================== 
 let mapleader = ","
 let g:mapleader = ","
+let maplocalleader = "\\"
+let g:maplocalleader = "\\"
 
 nnoremap <Space> <C-f>
 
@@ -90,4 +93,11 @@ nmap <leader>fh :FzfHistory<cr>
 nmap <leader>fk :FzfMaps<cr>
 nmap <leader>fv :FzfHelptags<cr>
 nmap <leader>fx :FzfCommands<cr>
+
+" ============================================================================== 
+" Nerdcommenter
+" ============================================================================== 
+" enabled: nerdcommenter
+let g:NERDSpaceDelims = 1
+let g:NERDCommentEmptyLines = 1
 
