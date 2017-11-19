@@ -1,6 +1,17 @@
 " https://vimawesome.com/
 
 " ============================================================================== 
+" Plugins and Shortcuts
+" ============================================================================== 
+" fzf.vim - <leader>f
+" nerdcommenter - <leader>c
+" vim-buftabline
+" vim-surround - *s*
+" lightline.vim
+" nerdtree
+" vim-easymotion - <leader><leader>
+
+" ============================================================================== 
 " Vim Basic Setup
 " ============================================================================== 
 set nocompatible 
