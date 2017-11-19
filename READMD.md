@@ -1,7 +1,7 @@
 TODOS
-- vim-workspace
-- vim-rooter
-- vimoutliner
+	vim-workspace
+	vim-rooter
+	vimoutliner
 
 
 # todos
