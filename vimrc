@@ -15,16 +15,20 @@
 " Vim Basic Setup
 " ============================================================================== 
 set nocompatible 
-filetype plugin on
 
+filetype plugin on
 syntax on
+
+set nowrap
+set encoding=utf8
 set mouse=a
+set autoread
 
 set hlsearch
 set incsearch
 set smartcase
-set number
 
+set number
 set backspace=indent,eol,start
 
 set guioptions-=T  "remove toolbar
@@ -32,6 +36,13 @@ set guioptions-=r  "remove right-hand scroll bar
 set guioptions-=L  "remove left-hand scroll bar
 
 set directory=~/.vim/swpfiles//
+
+set tabstop=4
+set shiftwidth=4
+set smarttab
+set expandtab
+
+set cursorline
 
 " ============================================================================== 
 " Themes 
@@ -101,3 +112,9 @@ nmap <leader>fx :FzfCommands<cr>
 let g:NERDSpaceDelims = 1
 let g:NERDCommentEmptyLines = 1
 
+" ============================================================================== 
+" Buftabline
+" ============================================================================== 
+let g:buftabline_numbers = 1
+let g:buftabline_indicators = 1
+let g:buftabline_separators = 1
