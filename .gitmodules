@@ -25,3 +25,6 @@
 [submodule "pack/plugins/start/supertab"]
 	path = pack/plugins/start/supertab
 	url = https://github.com/ervandew/supertab.git
+[submodule "pack/plugins/start/numbers.vim"]
+	path = pack/plugins/start/numbers.vim
+	url = https://github.com/myusuf3/numbers.vim.git
