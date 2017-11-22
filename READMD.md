@@ -25,7 +25,7 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 
 ``` sh
 git clone https://github.com/ColorFuzzy/dot.vim.git ~/.vim
-cd ~/.vim && git submodule update --recursive --remote
+cd ~/.vim && git submodule update --recursive --init
 ln -s ~/.vim/vimrc ~/.vimrc
 
 ```
