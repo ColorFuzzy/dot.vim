@@ -30,7 +30,3 @@ ln -s ~/.vim/vimrc ~/.vimrc
 
 ```
 
-# usage note
-
-:e $MYVIMRC
-:packadd pluginname

@@ -1,22 +1,12 @@
 " https://vimawesome.com/
 
 " ============================================================================== 
-" Plugins
-" ============================================================================== 
-" pack/plugins/start/fzf.vim
-" pack/plugins/start/lightline.vim
-" pack/plugins/start/nerdcommenter
-" pack/plugins/start/nerdtree
-" pack/plugins/start/vim-buftabline
-" pack/plugins/start/vim-easymotion
-" pack/plugins/start/vim-surround
-
-" ============================================================================== 
 " Vim Basic Setup
 " ============================================================================== 
 set nocompatible 
 
 filetype plugin on
+filetype plugin indent on
 syntax on
 
 set nowrap
