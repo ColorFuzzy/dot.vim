@@ -37,11 +37,10 @@ set cursorline
 " ============================================================================== 
 " Themes 
 " ============================================================================== 
-" http://www.calmar.ws/vim/256-xterm-24bit-rgb-color-chart.html
-" :help cterm-colors
-" highlight LineNr ctermfg=darkgray
-
 colorscheme monokai
+
+hi default link BufTabLineHidden  PmenuSel
+hi default link BufTabLineFill    PmenuSel
 
 " ============================================================================== 
 " Basic Shortcuts

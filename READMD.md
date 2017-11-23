@@ -1,7 +1,5 @@
 # todos
 
-- select a good color for cursorline, highlight current line
-
 # setup on ubuntu
 
 ## install latest vim
