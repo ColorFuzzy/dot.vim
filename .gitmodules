@@ -31,3 +31,6 @@
 [submodule "pack/plugins/start/vim-monokai"]
 	path = pack/plugins/start/vim-monokai
 	url = https://github.com/sickill/vim-monokai.git
+[submodule "pack/plugins/start/auto-pairs"]
+	path = pack/plugins/start/auto-pairs
+	url = https://github.com/jiangmiao/auto-pairs.git
