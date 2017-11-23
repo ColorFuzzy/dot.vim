@@ -39,7 +39,9 @@ set cursorline
 " ============================================================================== 
 " http://www.calmar.ws/vim/256-xterm-24bit-rgb-color-chart.html
 " :help cterm-colors
-highlight LineNr ctermfg=darkgray
+" highlight LineNr ctermfg=darkgray
+
+colorscheme monokai
 
 " ============================================================================== 
 " Basic Shortcuts
@@ -62,7 +64,6 @@ nmap <leader>vh :se hls!<cr>
 " ============================================================================== 
 " Status Bar 
 " ============================================================================== 
-" enabled: lightline.vim
 set laststatus=2  " status line
 
 " ============================================================================== 
@@ -74,13 +75,11 @@ set foldmethod=syntax
 " ============================================================================== 
 " File Explorer
 " ============================================================================== 
-" enabled: nerdtree
 nmap <leader>n :NERDTreeToggle<cr>
 
 " ============================================================================== 
 " Fzf
 " ============================================================================== 
-" enabled: fzf.vim
 set rtp+=~/.fzf  " remember to install fzf via git
 let g:fzf_command_prefix = 'Fzf'
 
@@ -98,7 +97,6 @@ nmap <leader>fx :FzfCommands<cr>
 " ============================================================================== 
 " Nerdcommenter
 " ============================================================================== 
-" enabled: nerdcommenter
 let g:NERDSpaceDelims = 1
 let g:NERDCommentEmptyLines = 1
 
