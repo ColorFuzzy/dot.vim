@@ -87,7 +87,11 @@ nmap <leader>n :NERDTreeToggle<cr>
 " ============================================================================== 
 " Fzf
 " ============================================================================== 
-set rtp+=~/.fzf  " remember to install fzf via git
+if has('macunix')
+    set rtp+=/usr/local/opt/fzf  " install fzf via homebrew"
+else
+    set rtp+=~/.fzf  " remember to install fzf via git
+endif
 let g:fzf_command_prefix = 'Fzf'
 
 nmap <leader>fg :FzfGFiles<cr>
