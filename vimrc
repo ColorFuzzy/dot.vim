@@ -1,4 +1,12 @@
 " https://vimawesome.com/
+" Usage
+" ,w ,q ,Q ,v-r/e/h
+" nerdtree: ,n 
+" fzf: ,f-*
+" nerdcommenter: ,c* - ,cc ,c<spc>
+" easymotion: ,,* - ,,f/F 
+" surround: ?
+" 
 
 " ============================================================================== 
 " Vim Basic Setup
